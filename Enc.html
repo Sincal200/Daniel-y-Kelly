@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Encuesta</title>
+<style type="text/css">
+
+  *{
+  padding: 0px;
+  margin: 0px;
+}
+   #header{
+     margin:auto;
+     width:500px;
+   }
+
+   ul,ol{
+     list-style:none;
+   }
+
+   .nav li a {
+     background-color:#000;
+     color:#fff;
+     text-decoration:none;
+     padding:10px 15px;
+     display: block;
+   }
+
+   .nav li a:hover{
+     background-color:#434343;
+
+   }
+
+   .nav > li{
+     float: left;
+   }
+
+   .nav li ul{
+     display:none;
+     position: absolute;
+     min-width:140px;
+   }
+
+   .nav li:hover >ul{
+     display: block;
+   }
+
+   .nav li ul li{
+     position: relative;
+   }
+
+   .nav li ul li ul{
+     right:-140px;
+     top:0px;
+   }
+
+P{
+  font-family:"Verdana";
+  font-size:150%;
+  font-style:normal;
+}
+</style>
+
+<link rel="icon" href="imagen/ico.ico">
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+
+</head>
+<div id="header">
+
+  <ul class="nav">
+
+    <li><a href="index.html">Inicio</a></li>
+
+    <li><a href="">Tipos de Contaminación</a>
+      <ul>
+        <li><a href="Cont1.html">Contaminación Ambiental</a></li>
+        <li><a href="Cont2.html">Contaminación Lumínica</a></li>
+        <li><a href="Cont3.html">Contaminación Sonora</a></li>
+        <li><a href="Cont4.html">Contaminación Del Agua</a></li>
+
+      </ul>
+    </li>
+
+    <li><a href="Enc.html">Encuesta</a></li>
+
+
+
+</div>
+<body bgcolor=#D3D3D3>
+<pre>
+
+
+
+
+
+<form method get action="todoalfredo@gmail.com">
+<u><b><center><p class="dos">Por favor conteste el siguinete cuestionario:</p></center></u></b>
+
+
+<p class="h9">
+Ingrese nombre: <input type="text">
+Ingrese apellido: <input type="text">
+
+
+¿Cuál es la mejor forma de terminar con la contaminación?
+
+<input type="radio" name="J" value="A">Concientizar a la población hablándole
+
+<input type="radio" name="J" value="B">Obligarlos a cuidar el medio ambientale
+
+<input type="radio" name="J" value="C">Dejar que por si solos se den cuenta de sus errores
+
+
+¿Cuál de las siguientes acciones realizas para contribuir a tener un mejor medio ambiente?
+
+<input type="checkbox">Tiro la Basura en su lugar
+<input type="checkbox">No tiro desechos en los ríos
+<input type="checkbox">Ahorro Energía
+</p>
+
+
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Borrar">
+
+</form>
